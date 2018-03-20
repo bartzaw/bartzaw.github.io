@@ -6,5 +6,5 @@ It's my personal website. There's a lot of content coming soon.
 
 Brace yourself
 
-##Links:
+## Links:
 * https://github.com/bartzaw/bartzaw.github.io
