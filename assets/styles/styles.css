@@ -181,6 +181,7 @@ h2 {
     color: #D0D0D0;
     background: #FFFFFF;
 }
+
 .section-team__description {
     display: block;
     color: #666666;
@@ -247,16 +248,11 @@ h2 {
     background: #666666;
 }
 
-/*#opinions {*/
-    /*margin: 100px auto;*/
-    /*background: #CCCCCC;*/
-    /*height: 450px;*/
-/*}*/
-
 #company {
     background: #01BAAC;
     height: 640px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .company-header:after {
@@ -266,6 +262,42 @@ h2 {
     width: 40px;
     padding-top: 20px;
     border-bottom: 3px solid #FFFFFF;
+}
+
+.company-item__container {
+    margin: 50px auto;
+    /*text-align: center;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.company-item {
+    display: inline-block;
+    text-align: center;
+    height: 210px;
+    width: 180px;
+}
+
+.company-item__description {
+    margin-top: 30px;
+}
+
+.company-item__description span {
+    display: block;
+}
+
+.company-item__number {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.company-item__circle {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 0 0 2px #fff;
+    border: 15px solid #01baac;
 }
 
 .uppercase {
@@ -307,3 +339,4 @@ h2 {
 .violettext {
     color: #6D0FAD;
 }
+
