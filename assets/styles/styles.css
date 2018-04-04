@@ -1,0 +1,259 @@
+
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 25px;
+    padding: 50px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.topbar {
+    margin-left: 50px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background: #484848;
+    overflow: hidden;
+    z-index: 10;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
+    list-style: none;
+}
+
+.navigation-list {
+    cursor: pointer;
+    float: right;
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    height: 100%;
+    display: inline;
+    list-style: none
+}
+
+.navigation-list-item {
+    background: #484848;
+    border-top: 8px #484848 solid;
+    /*display: inline-block;*/
+    float: left;
+    height: 80px;
+    width: 125px;
+    margin-right: -4px;
+    list-style-type: none;
+    padding-top: 25px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+    margin-left: -5px;
+
+}
+
+
+.hero {
+    padding: 210px;
+    height: 100vh;
+    background: #8E8E8E url(../images/hero-background-city.jpg) fixed;
+    position: relative;
+    background-size: cover;
+}
+
+.hero-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature {
+    float: left;
+    width: 50%;
+    border: 2px solid blue;
+}
+
+.feature-icon-container {
+    padding-top: 17px;
+    text-align: center;
+    width: 40px;
+    float: left;
+}
+
+.feature-description {
+    width: calc(100% - 40px);
+    float: left;
+}
+
+.section#team {
+    text-align: center;
+}
+
+.section-team__member {
+    width: 210px;
+    height: 280px;
+    background: #FFFFFF;
+    margin: 20px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.btn-green {
+    background: #01BAAC;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-white {
+    background: #FFFFFF;
+    color: #01BAAC;
+    font-weight: 600;
+    box-shadow: none;
+    border: 2px #01BAAC solid;
+}
+
+.btn-prof {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+}
+
+.section-team__member {
+    position: relative;
+    background: #CCCCCC;
+}
+.section-team__member h3 {
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    text-align: center;
+    height: 32px;
+    width: 135px;
+    padding: 5px;
+    color: #01BAAC;
+    background: #FFFFFF;
+}
+
+.team-member__title {
+    display: block;
+    margin: auto;
+    font-size: 0.8em;
+    padding: 2px;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    color: #D0D0D0;
+    background: #FFFFFF;
+}
+.section-team__description {
+    display: block;
+    color: #666666;
+    background: #FFFFFF;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+
+.section-team__content {
+    background: #CCCCCC;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section#blog {
+    height: 720px;
+    /*width: 1680px;*/
+}
+
+.blog-content {
+    margin-left: 33%;
+    margin-right: auto;
+}
+.blog-elements {
+    margin-right: 15px;
+    width: 220px;
+    display: inline-block;
+}
+
+.blog-img-container {
+    height: 290px;
+    width: 220px;
+    background: #C1C1C1 ;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.yellow-border {
+    border-color: #EBAB2F;
+}
+
+.orange-border {
+    border-color: #E47E2C
+}
+
+.red-border {
+    border-color: #C33162;
+}
+
+.violet-border {
+    border-color: #6D0FAD;
+}
+
+.light-violet-border {
+    border-color: #941F77;
+}
+
+.blue-border {
+    border-color: #2483B3;
+}
+
+.dark-blue-border {
+    border-color: #000266;
+}
