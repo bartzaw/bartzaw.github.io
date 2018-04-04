@@ -226,6 +226,9 @@ a {
     background: #C1C1C1 ;
 }
 
+.blog-learnmore{
+
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -256,4 +259,12 @@ a {
 
 .dark-blue-border {
     border-color: #000266;
+}
+
+.blueishtext {
+    color: #01BAAC;
+}
+
+.violettext {
+    color: #6D0FAD;
 }
