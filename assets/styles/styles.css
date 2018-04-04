@@ -19,6 +19,11 @@ h2 {
     padding: 50px;
 }
 
+.navigation-list-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .topbar {
     margin-left: 50px;
     height: 80px;
@@ -75,10 +80,6 @@ h2 {
     cursor: pointer;
 }
 
-.navigation-list-item a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
 
 .hero {
     padding: 210px;
