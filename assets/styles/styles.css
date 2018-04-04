@@ -227,7 +227,17 @@ a {
 }
 
 .blog-learnmore{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #C1C1C1 solid;
+}
 
+.blog-learnmore-comment {
+    float: right;
+    width: 25%;
 }
 .uppercase {
     text-transform: uppercase;
