@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 
 html, body {
@@ -17,7 +17,6 @@ h2 {
     font-size: 36px;
     margin: 0 auto;
     padding-top: 50px;
-    /*padding-bottom: 25px;*/
 }
 
 .navigation-list-item a {
@@ -295,9 +294,9 @@ h2 {
 .company-item__circle {
     background-color: #000;
     border-radius: 50%;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 0 2px #fff;
-    border: 15px solid #01baac;
+    border: 25px solid #01baac;
 }
 
 .uppercase {
