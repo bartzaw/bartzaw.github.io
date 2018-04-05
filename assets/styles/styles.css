@@ -191,12 +191,6 @@ button:hover {
     background-size: 210px 280px;
 }
 
-.section-team__container {
-    height: 600px;
-    width: 1680px;
-    margin: 0 auto;
-}
-
 .team-content__img {
     height: 140px;
     background: url(../images/bark-close-up-cute-34533.jpg) no-repeat;
