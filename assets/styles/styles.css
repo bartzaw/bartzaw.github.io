@@ -217,7 +217,7 @@ button:hover {
     height: 860px;
 }
 
-.blog-header {
+.section-header {
     padding: 50px;
 }
 
@@ -286,8 +286,7 @@ button:hover {
 }
 
 .company-item__container {
-    margin: 50px auto;
-    /*text-align: center;*/
+    margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
