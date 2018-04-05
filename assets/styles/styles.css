@@ -9,6 +9,7 @@ html, body {
     padding: 0;
     background: #FFFFFF;
     font-family: "Open Sans", sans-serif;
+    color: #262626;
 }
 
 h2 {
@@ -258,11 +259,28 @@ button:hover {
     width: 1680px;
 }
 
-#prices {
-    margin: 100px auto;
+.section#prices {
     height: 450px;
     width: 1680px;
-    background: #666666;
+
+}
+
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    height: 40%;
+    width: 60%;
+    text-align: center;
+    border: 3px dashed #01BAAC;
+}
+
+.table thead {
+    background: #01BAAC;
+}
+
+tr:hover {
+    background: #01BAAC;
 }
 
 #company {
