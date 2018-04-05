@@ -214,15 +214,20 @@ button:hover {
 }
 
 .section#blog {
-    height: 720px;
-    /*width: 1680px;*/
+    height: 860px;
+}
+
+.blog-header {
+    padding: 50px;
 }
 
 .blog-content {
-    margin-left: 30%;
-    margin-right: auto;
+    margin: 0 auto;
+    height: 700px;
+    width: 720px;
 }
-.blog-elements {
+
+.blog-element {
     margin-right: 15px;
     width: 220px;
     display: inline-block;
@@ -265,6 +270,10 @@ button:hover {
     height: 640px;
     color: #FFFFFF;
     text-align: center;
+}
+
+.company-header {
+    padding: 30px;
 }
 
 .company-header:after {
