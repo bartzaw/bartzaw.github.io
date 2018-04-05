@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 html, body {
@@ -109,10 +109,6 @@ h2 {
     width: 1680px;
 }
 
-.section-feature__container {
-
-}
-
 .feature-icon-container {
     padding-top: 17px;
     text-align: center;
@@ -125,18 +121,6 @@ h2 {
     float: left;
 }
 
-.section#team {
-    text-align: center;
-}
-
-.section-team__member {
-    width: 210px;
-    height: 280px;
-    background: #FFFFFF;
-    margin: 20px 10px;
-    display: inline-block;
-    position: relative;
-}
 
 .btn-green {
     background: #01BAAC;
@@ -176,10 +160,6 @@ button:hover {
     margin: 5px;
 }
 
-.section-team__member {
-    position: relative;
-    background: #CCCCCC;
-}
 .section-team__member h3 {
     display: block;
     font-size: 0.9em;
@@ -192,12 +172,46 @@ button:hover {
     background: #FFFFFF;
 }
 
+.section#team {
+    text-align: center;
+    height: 600px;
+    width: 1680px;
+}
+
+.section-team__member {
+    width: 210px;
+    height: 280px;
+    margin: 20px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.cute-owl {
+    background: url(../images/bark-close-up-cute-34533.jpg) no-repeat;
+    background-size: 210px 280px;
+}
+
+.section-team__container {
+    height: 600px;
+    width: 1680px;
+    margin: 0 auto;
+}
+
+.team-content__img {
+    height: 140px;
+    background: url(../images/bark-close-up-cute-34533.jpg) no-repeat;
+    background-size: 210px 280px;
+}
+
+.team-content__text {
+    height: 140px;
+}
+
 .team-member__title {
     display: block;
     margin: auto;
     font-size: 0.8em;
     padding: 2px;
-    height: 32px;
     width: 100%;
     text-align: center;
     color: #D0D0D0;
@@ -207,20 +221,13 @@ button:hover {
 .section-team__description {
     display: block;
     color: #666666;
-    background: #FFFFFF;
     width: 100%;
-    height: 50%;
-    padding: 10px;
 }
 
 .section-team__content {
-    background: #CCCCCC;
-    text-align: center;
+    margin: 0 auto;
     position: absolute;
     width: 100%;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .section#blog {
@@ -271,7 +278,6 @@ button:hover {
 .section#prices {
     height: 450px;
     width: 1680px;
-
 }
 
 .table {
