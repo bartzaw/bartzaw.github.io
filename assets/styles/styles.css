@@ -186,8 +186,8 @@ button:hover {
     position: relative;
 }
 
-.cute-owl {
-    background: url(../images/bark-close-up-cute-34533.jpg) no-repeat;
+.cookie-mtr {
+    background: url(../images/cookie-fella.jpeg) no-repeat;
     background-size: 210px 280px;
 }
 
@@ -200,7 +200,6 @@ button:hover {
 .team-content__img {
     height: 140px;
     background: url(../images/bark-close-up-cute-34533.jpg) no-repeat;
-    background-size: 210px 280px;
 }
 
 .team-content__text {
