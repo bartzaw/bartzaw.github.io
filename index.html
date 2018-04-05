@@ -104,9 +104,7 @@
         <h2 class="section-header">Opinions</h2>
     </section>
     <section class="section" id="blog">
-        <div class="section-header">
-        <h2>Latest blog posts</h2>
-        </div>
+        <h2 class="section-header">Latest blog posts</h2>
         <div class="blog-content">
             <div class="blog-element">
                 <div class="blog-img-container">
@@ -176,37 +174,37 @@
         <div class="company-header">
             <h2>Company experience</h2>
         </div>
-        <div class="company-item__container">
-                <div class="company-item">
-                    <div class="company-item__circle">
-                        <span class="fas fa-cogs fa-4x icon-background"></span>
-                    </div>
-                    <div class="company-item__description">
-                        <span class="company-item__number">
-                        500
-                        </span>
-                        <span>
-                        years of web development
-                        </span>
-                    </div>
-                </div>
-                <div class="company-item">
-                    <span class="company-item fas fa-ellipsis-h fa-5x"></span>
-                </div>
-                <div  class="company-item">
-                    <div class="company-item__circle">
-                        <span class="fas fa-phone fa-4x icon-background"></span>
-                    </div>
-                    <div class="company-item__description">
-                        <span class="company-item__number">
-                        25000
-                        </span>
-                        <span>
-                        results of the last winter year
-                        </span>
-                    </div>
-                </div>
+        <div>
             <div class="company-item">
+                <div class="company-item__circle">
+                    <span class="fas fa-cogs fa-4x icon-background"></span>
+                </div>
+                <div class="company-item__description">
+                    <span class="company-item__number">
+                       500
+                    </span>
+                    <span>
+                        years of web development
+                    </span>
+                </div>
+            </div>
+            <div class="company-item dots">
+                    <span class="company-item fas fa-ellipsis-h fa-5x"></span>
+            </div>
+            <div  class="company-item">
+                <div class="company-item__circle">
+                        <span class="fas fa-phone fa-4x icon-background"></span>
+                </div>
+                <div class="company-item__description">
+                    <span class="company-item__number">
+                        25000
+                    </span>
+                    <span>
+                        results of the last winter year
+                    </span>
+                </div>
+            </div>
+            <div class="company-item dots">
                 <span class="company-item fas fa-ellipsis-h fa-5x"></span>
             </div>
             <div  class="company-item">
@@ -215,10 +213,10 @@
                 </div>
                 <div class="company-item__description">
                     <span class="company-item__number">
-                    100 000
+                        100 000
                     </span>
                     <span>
-                    euros of the military budget
+                        euros of the military budget
                     </span>
                 </div>
             </div>
@@ -320,31 +318,36 @@
         </table>
     </section>
     <section class="section" id="contact">
-        <h2>Contact</h2>
-        <div>
-            <label for="name">Name</label>
-            <input id="name" type="text" required>
+        <h2 class="section-header">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" required>
 
-            <label for="phone" >Phone</label>
-            <input id="phone" type="number" required>
+                    <label for="phone" >Phone</label>
+                    <input id="phone" type="text" required>
 
-            <label for="email">Email</label>
-            <input id="email" type="email">
-        </div>
-        <div>
-            <label for="role-client">Client</label>
-            <input type="radio" value="client" id="role-client">
-            <label for="role-investor">Investor</label>
-            <input type="radio" value="investor" id="role-investor">
-            <label for="role-other">Other</label>
-            <input type="radio" value="other" id="role-other">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <label for="role-client">Client</label>
+                    <input type="radio" value="client" id="role-client">
+                    <label for="role-investor">Investor</label>
+                    <input type="radio" value="investor" id="role-investor">
+                    <label for="role-other">Other</label>
+                    <input type="radio" value="other" id="role-other">
 
-            <label for="contact-sms">Contact via SMS</label>
-            <input id="contact-sms" type="checkbox">
-        </div>
-        <div>
-            <label for="message">Message</label>
-            <textarea id="message" rows="10"></textarea>
+                    <label for="contact-sms">Contact via SMS</label>
+                    <input id="contact-sms" type="checkbox">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="10"></textarea>
+                </div>
+                <
+            </div>
         </div>
     </section>
 </main>

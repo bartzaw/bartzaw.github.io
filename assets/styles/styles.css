@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 
 html, body {
@@ -139,7 +139,7 @@ button:hover {
     color: #01BAAC;
     font-weight: 600;
     box-shadow: none;
-    border: 2px #01BAAC solid;
+    border: 3px #01BAAC solid;
 }
 
 .btn-prof {
@@ -299,7 +299,7 @@ tr:hover {
 
 #company {
     background: #01BAAC;
-    height: 640px;
+    height: 560px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -317,21 +317,20 @@ tr:hover {
     border-bottom: 3px solid #FFFFFF;
 }
 
-.company-item__container {
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 .company-item {
     display: inline-block;
-    text-align: center;
-    height: 210px;
+    height: 174px;
     width: 180px;
+}
+
+.dots {
+    vertical-align: top;
 }
 
 .company-item__description {
     margin-top: 30px;
+    height: 102px;
+    width: 180px;
 }
 
 .company-item__description span {
@@ -351,6 +350,28 @@ tr:hover {
     box-shadow: 0 0 0 2px #fff;
     border: 25px solid #01baac;
 }
+
+.contact-container {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form {
+    background: #EBF0F3;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 720px;
+}
+
+.contact-form textarea {
+    width: 80%;
+}
+
 
 .uppercase {
     text-transform: uppercase;
