@@ -104,6 +104,15 @@ h2 {
     border: 2px solid blue;
 }
 
+.section#features {
+    height: 480px;
+    width: 1680px;
+}
+
+.section-feature__container {
+
+}
+
 .feature-icon-container {
     padding-top: 17px;
     text-align: center;
