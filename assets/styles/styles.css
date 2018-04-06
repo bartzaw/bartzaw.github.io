@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 html, body {
@@ -364,8 +364,29 @@ tr:hover {
 
 .contact-form textarea {
     width: 80%;
+    border: 1px #EBF0F3 solid;
+    border-top: 1px #C1C1C1 solid;
 }
 
+.contact-form input {
+    border: 1px #EBF0F3 solid;
+    border-top: 1px #C1C1C1 solid;
+}
+
+.contact-container h3 {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: top;
+    width: 720px;
+}
+
+.btn-form {
+    float: right;
+    display: block;
+    height: 40px;
+    width: 130px;
+}
 
 .uppercase {
     text-transform: uppercase;
