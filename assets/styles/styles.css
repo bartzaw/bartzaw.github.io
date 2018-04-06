@@ -276,19 +276,29 @@ tr:hover {
 }
 
 .company-item {
+    position: relative;
     display: inline-block;
-    height: 174px;
-    width: 180px;
+    vertical-align: top;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+}
+
+.company-item__border {
+    border: 5px solid #fff;
 }
 
 .dots {
     vertical-align: top;
+    border: 0;
 }
 
 .company-item__description {
-    margin-top: 30px;
+    bottom:-105px;
+    left: 3px;
+    position: absolute;
     height: 100px;
-    width: 180px;
+    width: 170px;
 }
 
 .company-item__number {
@@ -296,12 +306,12 @@ tr:hover {
     display: block;
 }
 
-.company-item__circle {
-    background-color: #000;
-    border-radius: 50%;
-    padding: 30px;
-    box-shadow: 0 0 0 5px #fff;
-    border: 25px solid #01baac;
+.company-icon_container {
+    color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contact-container {
