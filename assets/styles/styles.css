@@ -1,7 +1,5 @@
-
 * {
     box-sizing: border-box;
-    /*outline: 1px solid red;*/
 }
 
 html, body {
@@ -15,14 +13,20 @@ html, body {
 h2 {
     text-align: center;
     font-weight: 400;
-    font-size: 36px;
-    margin: auto;
+    font-size: 2em;
+}
 
+.navigation-list-item:hover {
+    background: #01BAAC;
 }
 
 .navigation-list-item a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.navigation-list-item:first-child {
+    visibility:  hidden;
 }
 
 .topbar {
@@ -51,8 +55,6 @@ h2 {
     position: relative;
     width: 1680px;
     height: 80px;
-    margin-right: auto;
-    margin-left: auto;
     display: inline;
     list-style: none;
 }
@@ -81,7 +83,6 @@ h2 {
     cursor: pointer;
 }
 
-
 .hero {
     padding: 210px;
     height: 100vh;
@@ -98,15 +99,14 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+.section#features {
+    height: 480px;
+}
+
 .feature {
     float: left;
     width: 50%;
     border: 2px solid blue;
-}
-
-.section#features {
-    height: 480px;
-    width: 1680px;
 }
 
 .feature-icon-container {
@@ -119,45 +119,6 @@ h2 {
 .feature-description {
     width: calc(100% - 40px);
     float: left;
-}
-
-
-.btn-green {
-    background: #01BAAC;
-    color: #FFFFFF;
-    font-weight: 600;
-}
-
-button:hover {
-    background: #01BAAC;
-    color: #FFFFFF;
-    font-weight: 600;
-}
-
-.btn-white {
-    background: #FFFFFF;
-    color: #01BAAC;
-    font-weight: 600;
-    box-shadow: none;
-    border: 3px #01BAAC solid;
-}
-
-.btn-prof {
-    display: block;
-    position: absolute;
-    height: 40px;
-    width: 120px;
-    margin: auto;
-    bottom: -60px;
-    left: 0;
-    right: 0;
-}
-
-.btn-hero {
-    height: 30px;
-    width: 130px;
-    background: transparent;
-    margin: 5px;
 }
 
 .section-team__member h3 {
@@ -175,7 +136,6 @@ button:hover {
 .section#team {
     text-align: center;
     height: 600px;
-    width: 1680px;
 }
 
 .section-team__member {
@@ -198,6 +158,8 @@ button:hover {
 
 .team-content__text {
     height: 140px;
+    position: absolute;
+    top: 80%;
 }
 
 .team-member__title {
@@ -213,6 +175,7 @@ button:hover {
 
 .section-team__description {
     margin-top: 25px;
+    padding: 7px;
     display: block;
     color: #666666;
     width: 100%;
@@ -226,6 +189,7 @@ button:hover {
 
 .section-header {
     padding: 50px;
+    margin: 30px;
 }
 
 .blog-content {
@@ -234,11 +198,10 @@ button:hover {
     width: 1680px;
     display: flex;
     justify-content: center;
-
 }
 
 .blog-element {
-    margin-right: 15px;
+    margin-right: 20px;
     width: 290px;
     display: inline-block;
 }
@@ -270,7 +233,6 @@ button:hover {
 
 .section#prices {
     height: 450px;
-    width: 1680px;
 }
 
 .table {
@@ -291,7 +253,7 @@ tr:hover {
     background: #01BAAC;
 }
 
-#company {
+.section#company {
     background: #01BAAC;
     height: 560px;
     color: #FFFFFF;
@@ -323,24 +285,20 @@ tr:hover {
 
 .company-item__description {
     margin-top: 30px;
-    height: 102px;
+    height: 100px;
     width: 180px;
 }
 
-.company-item__description span {
-    display: block;
-}
-
 .company-item__number {
-    font-weight: bold;
     font-size: 32px;
+    display: block;
 }
 
 .company-item__circle {
     background-color: #000;
     border-radius: 50%;
     padding: 30px;
-    box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 5px #fff;
     border: 25px solid #01baac;
 }
 
@@ -380,17 +338,11 @@ tr:hover {
     width: 720px;
 }
 
-.btn-form {
-    float: right;
-    display: block;
-    height: 40px;
-    width: 130px;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
 
+/*COLORS*/
 .yellow-border {
     border-color: #EBAB2F;
 }
@@ -427,3 +379,48 @@ tr:hover {
     color: #6D0FAD;
 }
 
+/*BUTTONS*/
+.btn-green {
+    background: #01BAAC;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #01BAAC;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-white {
+    background: #FFFFFF;
+    color: #01BAAC;
+    font-weight: 600;
+    box-shadow: none;
+    border: 3px #01BAAC solid;
+}
+
+.btn-prof {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+}
+
+.btn-hero {
+    height: 30px;
+    width: 130px;
+    background: transparent;
+    margin: 5px;
+}
+
+.btn-form {
+    float: right;
+    display: block;
+    height: 40px;
+    width: 130px;
+}
