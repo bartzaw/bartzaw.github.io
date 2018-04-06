@@ -11,7 +11,7 @@ html, body {
 }
 
 h2 {
-    padding: 60px 50px;
+    padding: 40px 40px;
     margin: 30px auto;
     text-align: center;
     font-weight: 400;
@@ -259,7 +259,7 @@ tr:hover {
 
 .section#company {
     background: #01BAAC;
-    height: 560px;
+    height: 480px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -277,8 +277,8 @@ tr:hover {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    height: 185px;
-    width: 185px;
+    height: 140px;
+    width: 140px;
     border-radius: 50%;
 }
 
@@ -294,8 +294,8 @@ tr:hover {
     position: absolute;
     display: inline-block;
     vertical-align: top;
-    height: 185px;
-    width: 185px;
+    height: 140px;
+    width: 140px;
     border-radius: 50%;
     border: 4px solid rgba(255,255,255,0.25);
     border-bottom: 4px solid rgba(255,255,255,1);
@@ -320,7 +320,7 @@ tr:hover {
 
 .company-item__description {
     bottom:-80px;
-    left: 115px;
+    left: 70px;
     position: absolute;
     height: 100px;
     width: 170px;
