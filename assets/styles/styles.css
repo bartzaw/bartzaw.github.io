@@ -16,6 +16,11 @@ h2 {
     font-size: 2em;
 }
 
+.section {
+    margin: 0 auto;
+    width: 1680px;
+}
+
 .navigation-list-item:hover {
     background: #01BAAC;
 }
@@ -53,7 +58,6 @@ h2 {
 
 .navigation {
     position: relative;
-    width: 1680px;
     height: 80px;
     display: inline;
     list-style: none;
@@ -195,7 +199,6 @@ h2 {
 .blog-content {
     margin: 0 auto;
     height: 520px;
-    width: 1680px;
     display: flex;
     justify-content: center;
 }
@@ -206,10 +209,9 @@ h2 {
     display: inline-block;
 }
 
-.blog-img-container {
+.blog-img__container img {
     height: 220px;
     width: 290px;
-    background: #C1C1C1 ;
 }
 
 .blog-learnmore{
@@ -221,14 +223,9 @@ h2 {
     border-bottom: 1px #C1C1C1 solid;
 }
 
-.blog-learnmore-comment {
+.blog-learnmore__comment {
     float: right;
     width: 25%;
-}
-
-.section {
-    margin: 50px auto;
-    width: 1680px;
 }
 
 .section#prices {
@@ -242,15 +239,16 @@ h2 {
     height: 40%;
     width: 60%;
     text-align: center;
-    border: 3px dashed #01BAAC;
+    border: 5px solid #01BAAC;
 }
 
 .table thead {
     background: #01BAAC;
+    font-size: 1.25em;
 }
 
 tr:hover {
-    background: #01BAAC;
+    background: rgba(1, 186, 172, 0.5);
 }
 
 .section#company {
