@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 html, body {
@@ -285,17 +286,15 @@ tr:hover {
 }
 
 .company-item__border {
-    border: 5px solid #fff;
+    border: 4px solid rgba(255,255,255,0.5);
 }
 
 .dots {
     vertical-align: top;
-    border: 0;
 }
 
 .company-item__description {
-    bottom:-105px;
-    left: 3px;
+    bottom:-115px;
     position: absolute;
     height: 100px;
     width: 170px;
