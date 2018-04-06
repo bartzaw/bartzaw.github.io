@@ -8,7 +8,7 @@ html, body {
     margin: 0;
     padding: 0;
     background: #FFFFFF;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #262626;
 }
 
@@ -148,7 +148,7 @@ button:hover {
     height: 40px;
     width: 120px;
     margin: auto;
-    bottom: -80px;
+    bottom: -60px;
     left: 0;
     right: 0;
 }
@@ -212,6 +212,7 @@ button:hover {
 }
 
 .section-team__description {
+    margin-top: 25px;
     display: block;
     color: #666666;
     width: 100%;
