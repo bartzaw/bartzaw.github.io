@@ -220,14 +220,19 @@ h2 {
     display: inline-block;
     float: left;
     margin-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     border-bottom: 1px #C1C1C1 solid;
 }
 
 .blog-learnmore__comment {
     float: right;
-    width: 25%;
+    width: 20%;
 }
+
+.blog-learnmore__comment span {
+    margin-right: 10px;
+}
+
 
 .section#prices {
     height: 450px;
