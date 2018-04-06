@@ -21,6 +21,10 @@ h2 {
     width: 1680px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .navigation-list-item:hover {
     background: #01BAAC;
 }
@@ -232,7 +236,7 @@ h2 {
     height: 450px;
 }
 
-.table {
+.prices-table {
     margin: auto;
     border-collapse: collapse;
     table-layout: fixed;
@@ -242,7 +246,7 @@ h2 {
     border: 5px solid #01BAAC;
 }
 
-.table thead {
+.prices-table thead {
     background: #01BAAC;
     font-size: 1.25em;
 }
@@ -336,11 +340,6 @@ tr:hover {
     width: 720px;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-/*COLORS*/
 .yellow-border {
     border-color: #EBAB2F;
 }
@@ -377,7 +376,6 @@ tr:hover {
     color: #6D0FAD;
 }
 
-/*BUTTONS*/
 .btn-green {
     background: #01BAAC;
     color: #FFFFFF;
