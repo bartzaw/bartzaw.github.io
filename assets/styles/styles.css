@@ -223,29 +223,28 @@ button:hover {
     width: 100%;
 }
 
-.section#blog {
-    height: 860px;
-}
-
 .section-header {
     padding: 50px;
 }
 
 .blog-content {
     margin: 0 auto;
-    height: 700px;
-    width: 720px;
+    height: 520px;
+    width: 1680px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .blog-element {
     margin-right: 15px;
-    width: 220px;
+    width: 290px;
     display: inline-block;
 }
 
 .blog-img-container {
-    height: 290px;
-    width: 220px;
+    height: 220px;
+    width: 290px;
     background: #C1C1C1 ;
 }
 
