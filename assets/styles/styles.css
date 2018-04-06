@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
 }
 
 html, body {
@@ -12,6 +11,8 @@ html, body {
 }
 
 h2 {
+    padding: 60px 50px;
+    margin: 30px auto;
     text-align: center;
     font-weight: 400;
     font-size: 2em;
@@ -196,11 +197,6 @@ h2 {
     width: 100%;
 }
 
-.section-header {
-    padding: 50px;
-    margin: 30px;
-}
-
 .blog-content {
     margin: 0 auto;
     height: 520px;
@@ -263,11 +259,7 @@ tr:hover {
     text-align: center;
 }
 
-.company-header {
-    padding: 30px;
-}
-
-.company-header:after {
+#company h2:after {
     content: "";
     display: block;
     margin: 0 auto;
