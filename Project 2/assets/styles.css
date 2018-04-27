@@ -35,7 +35,7 @@
 
 .box1, .box2, .box3, .box4 {
     flex-grow: 1;
-    border: 3px solid #FFFFFF;
+    border: 5px solid #FFFFFF;
 }
 
 .red > .box3, .red > .box4 {
@@ -49,7 +49,31 @@
         flex-direction: row;
     }
 
+    .red-square {
+        flex: 1 0 40%;
+    }
+
     .red > .box3, .red > .box4 {
         display: flex;
     }
+}
+
+@media (min-width: 768px) {
+
+    .box1, .box2, .box3, .box4 {
+        border: 10px solid #FFFFFF;
+    }
+
+    .blue, .green {
+        flex-direction: row;
+    }
+
+    .orange {
+        height: 350px;
+    }
+
+    .red-square {
+        flex: 1 1 25%;
+    }
+
 }
