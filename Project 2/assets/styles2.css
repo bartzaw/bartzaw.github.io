@@ -1,0 +1,24 @@
+[class^='col-'] {
+    padding: 10px;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.blue {
+    height: 140px;
+    background: #0000ff;
+}
+.orange {
+    height: 260px;
+    background: #ffA500;
+}
+.green {
+    height: 200px;
+    background: #008000;
+}
+.red {
+    height: 160px;
+    background: #ff0000;
+}
